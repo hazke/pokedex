@@ -1,0 +1,59 @@
+.logo-image {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.dex-image {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.link-container {
+  display: flex;
+  margin-left: 100px;
+
+}
+
+.link-container a {
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  border: none;
+  width: 100px;
+  padding: 0.3rem 0;
+  margin: 1rem;
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  background-color: #fffb05;
+  border-radius: 8px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 50px;
+}
+
+:global(.main) {
+  display: block;
+}
+
+:global(.About) .main {
+  display: none;
+}
+
+
+
+.content-container {
+  display: block;
+}
+
+.About .content-container {
+  display: none;
+}

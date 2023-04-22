@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hazke/pokedex.git/static/css/main.04aaf182.css",
+    "main.js": "/hazke/pokedex.git/static/js/main.07336063.js",
+    "index.html": "/hazke/pokedex.git/index.html",
+    "main.04aaf182.css.map": "/hazke/pokedex.git/static/css/main.04aaf182.css.map",
+    "main.07336063.js.map": "/hazke/pokedex.git/static/js/main.07336063.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04aaf182.css",
+    "static/js/main.07336063.js"
+  ]
+}

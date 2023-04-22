@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+    background-image: url('https://images6.alphacoders.com/305/thumb-1920-305896.jpg');
+    background-size: container;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+
+}
+
+.left-content,
+.right-content {
+    flex-basis: 50%;
+}
+
+.left-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+
+    grid-gap: 2rem;
+}
+
+.card {
+
+
+    width: 230px;
+    height: 80px;
+    background-size: cover;
+    background-color: #fa0b0b;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgb(255, 238, 0);
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+.right-content {
+    background-color: black;
+    width: 50%;
+    height: 70%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    border: 5px solid red;
+}
+
+
+
+.right-content img {
+    margin: 1.5rem;
+    height: 160px;
+
+}
+
+.right-content h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+.abilities {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.abilities .group {
+    background-color: #b74555;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+
+}
+
+.base-stat {
+    margin-top: 2rem;
+
+}
+
+.btn-group {
+    display: flex;
+    justify-content: flex-end;
+
+    align-items: flex-start;
+
+}
+
+.btn-group button {
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+}
+
+:global(.main) {
+    display: block;
+}
+
+:global(.About) .main {
+    display: none;
+}
+
+
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.about-link {
+    font-size: 1.2rem;
+}
